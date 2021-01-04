@@ -402,7 +402,7 @@ public class Sudoku {
 						int number = 3*(i%3)+n;
 						int index = 9*(i/3) + (3*j+k);
 						if (solvedPos[index]) {
-							System.out.print((number == 4 ? (char)(leastNumber(index)+'1') : ((number&1)==0 ? '¤' : ' ')));
+							System.out.print((number == 4 ? (char)(leastNumber(index)+'1') : 'â€¢'));
 						} else {
 							System.out.print(b[index][number] ? (char)(number+'1') : ' ');
 						}

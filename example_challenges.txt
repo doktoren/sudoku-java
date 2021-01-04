@@ -65,3 +65,14 @@ Evil puzzle from helix-publishing.com (solved by the program):
 800000004
 100059003
 305104000
+
+Example from https://www.7sudoku.com/very-difficult:
+007000056
+080250000
+005010800
+060720000
+800604001
+000095060
+002040600
+000079020
+410000900
